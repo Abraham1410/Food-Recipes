@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ResepMakanan" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/orange</item>
+    </style>
+
+    <style name="roundImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Theme.ResepMakanan" parent="Base.Theme.ResepMakanan" />
+</resources>
